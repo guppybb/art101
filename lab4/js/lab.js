@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Rock-Paper-Scissors
+// Author: Gabby Botto and Jennifer Le
+// Date: 23 April 2024
 
 // Constants
 
@@ -19,3 +19,10 @@ function main() {
 
 // let's get this party started
 main();
+// Creating a rock-paper-scissors game:
+// 1. allow for 1 player and 1 computer each turn
+// 2. accept user and computer input
+// 3. validate user and computer move
+// 4. test of win or draw condition
+
+// allow for 1 player and 1 computer each round
