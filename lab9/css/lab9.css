@@ -1,0 +1,15 @@
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #3f3838;
+    background-color: #c49a68;
+    font-family: Arial, Helvetica, sans-seriff;
+  }
+.special {
+  background-color: lavenderblush;
+  border: dotted 45px black;
+  color: pink;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}

@@ -16,18 +16,24 @@ function main() {
 // let's get this party started
 main();
 
-function sortUserName(gabby){
-    var userName = window.prompt ("Hi, please tell me your name so I can fix it.");
-    console.log("userName =", userName);
+function stringSort() {
+  const userName = window.prompt("What's your name?");
+  console.log("User Input: " + userName);
 
-    var nameArray = userName.split('');
-    console.log("nameArray", nameArray);
+  const array = userName.split('');
+  console.log("New Array: " + array);
 
-    var nameArraySort = nameArray.sort();
-    console.log("nameSorted =", nameSorted);
+  const sortArray = array.sort();
+  console.log("Sorted Array: " + sortArray);
 
-    var nameSorted = nameArraySort.join('');
-    console.log("nameSorted =", nameSorted);
+  const newName = sortArray.join('');
+  console.log("New Name: " + newName);
 
-    return nameSorted
+  return newName;
+
 }
+
+// output
+const sortedName = stringSort();
+document.writeln("Here's your new name " + sortedName + ".</br>");
+
