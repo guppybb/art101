@@ -1,0 +1,45 @@
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #3f3838;
+    background-color: #96c297;
+    font-family: Arial, Helvetica, sans-seriff;
+  }
+.special {
+  background-color: lavenderblush;
+  border: dotted 45px black;
+  color: pink;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 20px 10px 5px 0px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.text:nth-child(odd) {
+  text-align: left;
+}
+
+.text:nth-child(odd) p {
+  background-color: rgb(233, 233, 233);
+  color: black;
+}
+
+.text:nth-child(even) {
+  text-align: right;
+}
+
+.text:nth-child(even) p {
+  background-color: #45ba59;
+  color: white;
+}
